@@ -1,4 +1,4 @@
-CC=gcc -c -g -O2 -Wall -I/usr/include/mysql -DBIG_JOINS=1 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -fno-strict-aliasing -fPIC -DUNIV_LINUX
+CC=gcc -c -g -O2 -Wall -I/usr/include/mariadb -DBIG_JOINS=1 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -fno-strict-aliasing -fPIC -DUNIV_LINUX
 
 all:            cifdb jsondb tscdb archdb corpusdb smartdb vstpdb trustdb stompy tddb liverail.cgi livesig.cgi railquery.cgi service-report limed ops.cgi
 
